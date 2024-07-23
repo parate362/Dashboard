@@ -1,0 +1,32 @@
+export let formData = {
+  campaignName: "",
+  description: "",
+  platform: "",
+  gender: ["All" || "Male" || "Female" || "Other"],
+  worktype: ["Post" || "Repost"],
+  industry: ["Fashion" || "Lifestyle" || "Tourism"],
+  selectedOptions: [],
+  location: ["New Delhi" || "Nagpur" || "Mumbai" || "Pune"],
+  startDate: "",
+  endDate: "",
+  postCount: 0,
+  reelCount: 0,
+  storyCount: 0,
+  //   for budget
+  // reel: false,
+  // image: false,
+  // story: false,
+
+  payment: false,
+  fixed: false,
+  nagotiable: false,
+  fixedAmt: null,
+  min: null,
+  range: 0,
+  max: null,
+
+  product: false,
+  productDesc: "",
+  link: "",
+  upload: "",
+};

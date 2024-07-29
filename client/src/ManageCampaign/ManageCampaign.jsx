@@ -1,11 +1,7 @@
 import React, { useContext } from 'react'
 import { Mycontext } from '../utils/Context';
-import ActiveCampaign from './Component/ActiveCampaign/ActiveCampaign';
-import Budget from '../ManageCampaign/Component/Budget/Budget';
 import CampaignBoard from '../ManageCampaign/Component/CampaignBoard/CampaignBoard'
-import CampaignSummary from './Component/AddCampaign/CampaignSummary';
-import AddCampaign from './Component/AddCampaign/AddCampaign';
-import BudgetOrignal from './Component/Budget/BudgetOrignal';
+
 
 const ManageCampaign = () => {
     const contextState = useContext(Mycontext);

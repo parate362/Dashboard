@@ -1,4 +1,4 @@
-const { generateData, getPerformanceMeasure } = require('../controllers/performance-measure');
+const { generateData, getPerformanceMeasure } = require('../controller/performance-measure');
 
 module.exports = function(app, router) {
     router.post('/generate-data', generateData);

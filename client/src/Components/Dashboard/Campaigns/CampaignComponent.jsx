@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import { Link } from "react-router-dom";
 // import CountUp from "react-countup";
 
 const CampaignComponent = () => {
@@ -28,7 +29,11 @@ const CampaignComponent = () => {
 
   <div class=" flex justify-end">
     <button class="bg-white p-2 mr-4 rounded-full">
-      <KeyboardArrowRightIcon />
+    <Link to={"/manageCampaign"}>
+    <KeyboardArrowRightIcon />
+    </Link>
+      
+    
     </button>
   </div>
 </div>
@@ -46,7 +51,11 @@ const CampaignComponent = () => {
 
   <div class="flex justify-end">
     <button class="bg-white p-2 mr-4 rounded-full">
-      <KeyboardArrowRightIcon />
+    <Link to={"/manageCampaign"}>
+    <KeyboardArrowRightIcon />
+    </Link>
+
+      
     </button>
   </div>
 </div>

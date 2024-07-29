@@ -1,4 +1,4 @@
-const { getVideoViews,getVideoLikes } = require('../controllers/pie-chart');
+const { getVideoViews,getVideoLikes } = require('../controller/pie-chart');
 
 module.exports = function(app, router) {
     router.get('/video-views', getVideoViews);

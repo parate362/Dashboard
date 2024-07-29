@@ -1,5 +1,5 @@
 // routes/roiRoutes.js
-const { generateData,calculateROI } = require('../controllers/roiController');
+const { generateData,calculateROI } = require('../controller/roiController');
 
 module.exports = function(app, router) {
     router.post('/add-static-data', generateData);
